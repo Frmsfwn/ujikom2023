@@ -19,6 +19,6 @@ const Paslon = db.define('paslon',{
  
 export default Paslon ;
  
-// (async()=>{
-//     await db.sync();
-// })();
+(async()=>{
+    await db.sync();
+})();

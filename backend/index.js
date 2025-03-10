@@ -2,11 +2,8 @@ import express from "express";
 import FileUpload from "express-fileupload";
 import cors from "cors";
 import Route from "./routes/Route.js";
-import { syncData } from "./models/Index.js";
- 
-const app = express();
 
-syncData();
+const app = express();
 
 app.use(cors());
 app.use(express.json());

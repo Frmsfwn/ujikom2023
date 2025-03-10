@@ -14,6 +14,6 @@ const Admin = db.define('admin',{
  
 export default Admin;
  
-// (async()=>{
-//     await db.sync();
-// })();
+(async()=>{
+    await db.sync();
+})();
